@@ -5,7 +5,7 @@ from config import settings
 from typing import Optional
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
+ 
 class AuthService:
     """Authentication service for user management"""
     
