@@ -3,7 +3,7 @@ import base64
 import hashlib
 from config import settings
 
-class EncryptionService:
+class EncryptionService: 
     """End-to-end encryption for personal vault"""
     
     def __init__(self, key: str = None):
