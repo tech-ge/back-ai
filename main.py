@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 from datetime import datetime
 from typing import List, Optional
-
+ 
 from config import settings
 from schemas import (
     SearchQuery, SearchResult, AIAnalysisRequest, AIAnalysisResponse,
