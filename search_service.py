@@ -3,7 +3,7 @@ from typing import List
 from schemas import SearchResult
 from config import settings
 import json
-
+ 
 class SearchService:
     """Multi-source search aggregator for OmniMind"""
     
