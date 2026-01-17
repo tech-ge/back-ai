@@ -10,7 +10,7 @@ class AIAnalysisService:
         Synthesize search results into coherent analysis.
         In production, integrate with GPT-4, Claude, or open-source LLMs.
         """
-        
+         
         # Extract key information from results
         titles = [r.title for r in search_results]
         snippets = [r.snippet for r in search_results]
