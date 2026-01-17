@@ -3,7 +3,7 @@ from schemas import SearchResult, AIAnalysisResponse
 
 class AIAnalysisService:
     """AI-powered analysis for research synthesis"""
-    
+     
     @staticmethod
     def analyze_search_results(query: str, search_results: List[SearchResult]) -> AIAnalysisResponse:
         """
